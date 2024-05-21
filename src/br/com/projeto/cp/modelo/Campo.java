@@ -56,6 +56,9 @@ public class Campo {
     public boolean isMarcado() {
         return marcado;
     }
+    public boolean isMinado() {
+        return minado;
+    }
     public boolean isAberto() {
         return aberto;
     }
@@ -64,6 +67,9 @@ public class Campo {
     }
     public int getLinha() {
         return linha;
+    }
+    void setAberto(boolean aberto) {
+        this.aberto = aberto;
     }
     public int getColuna() {
         return coluna;

@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd7975b-10dc-44b9-86f5-d6b73c713d30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/campoMinado.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/projeto/cp/excecao/ExplosaoExcecao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/projeto/cp/modelo/Campo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/projeto/cp/modelo/Tabuleiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/CampoTeste.java" afterDir="false" />
+    <list default="true" id="ccd7975b-10dc-44b9-86f5-d6b73c713d30" name="Changes" comment="Lógica do Campo e Testes feita.">
+      <change afterPath="$PROJECT_DIR$/src/br/com/projeto/cp/Aplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/projeto/cp/excecao/SairExcecao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/projeto/cp/visao/TabuleiroConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/projeto/cp/modelo/Campo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/projeto/cp/modelo/Campo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/projeto/cp/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/projeto/cp/modelo/Tabuleiro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Augusto-debug"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Augusto-debug/campoMinado.git",
+    "accountId": "37298d35-10c6-4a45-b393-d74ccf33ef7a"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -43,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Aplicacao.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.CampoTeste.executor": "Run",
     "JUnit.CampoTeste.testeAbrirMinadoNaoMarcado.executor": "Run",
@@ -75,7 +86,20 @@
       <recent name="D:\Java\campoMinado\test\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CampoTeste.testeAbrirMinadoNaoMarcado">
+  <component name="RunManager" selected="Application.Aplicacao">
+    <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.projeto.cp.Aplicacao" />
+      <module name="campoMinado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.projeto.cp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CampoTeste.testeAbrirMinadoNaoMarcado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="campoMinado" />
       <extension name="coverage">
@@ -126,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aplicacao" />
         <item itemvalue="JUnit.CampoTeste.testeAbrirMinadoNaoMarcado" />
         <item itemvalue="JUnit.CampoTeste.testeAlternarMarcacao" />
         <item itemvalue="JUnit.CampoTeste.testeValorPadraoAtributoMarcado" />
@@ -153,12 +178,25 @@
       <workItem from="1715787532908" duration="9357000" />
       <workItem from="1715807176823" duration="911000" />
       <workItem from="1715977450928" duration="2127000" />
-      <workItem from="1716293998363" duration="5425000" />
+      <workItem from="1716293998363" duration="12034000" />
     </task>
+    <task id="LOCAL-00001" summary="Lógica do Campo e Testes feita.">
+      <option name="closed" value="true" />
+      <created>1716299717871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716299717871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lógica do Campo e Testes feita." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lógica do Campo e Testes feita." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/campoMinado$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1716296494541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
